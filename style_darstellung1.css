@@ -1,0 +1,52 @@
+#navigation li {
+  display: inline-block;
+}
+
+h2 {
+  font-family: 'Slim Joe', sans-serif;
+  color: #15131d;
+  font-size: 20px;
+
+}
+
+p {
+  margin-top: 2%;
+  font-family: 'Helvetica', sans-serif !important;
+  font-size: 16px;
+}
+
+#text {
+  margin-bottom: 2%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-height: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

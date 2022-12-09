@@ -1,0 +1,52 @@
+#navigation li {
+    display: inline-block;
+}
+
+#images img {
+    margin-top: 2%;
+    width: 40%;
+    height: 40%;
+    float: left;
+    padding: 1%;
+}
+
+#text {
+    width: 15%;
+    float: right;
+    align-items: right;
+    text-align: left;
+}
+
+header {
+    background-color: rgb(124, 203, 255) !important;
+    color: rgb(21, 21, 23) !important;
+}
+
+#navigation ul li a {
+    color: rgb(9, 9, 9) !important;
+}
+
+body {
+    background-color: rgb(21, 21, 23) !important;
+}
+
+h1 {
+    font-family: 'Aqua Grotesque', sans-serif !important;
+    color: rgb(124, 203, 255) !important;
+    font-size: 45px;
+
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif !important;
+    color: rgb(124, 203, 255) !important;
+    font-size: 40px;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif !important;
+    color: #F7F5E6 !important;
+    font-size: 16px;
+
+}
